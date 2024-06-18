@@ -217,7 +217,7 @@ function Listing() {
                                 <p>Captcha</p>
                             </div>
                             <div className="captcha-input">
-                                <input type="text" placeholder="Enter Captch Code"/>
+                                <input type="text" className="list-input" placeholder="Enter Captch Code"/>
                             </div>
                         </div>
                         <div className="qr-img-container">

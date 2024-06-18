@@ -106,36 +106,40 @@ function About () {
                                                 <li class="paragraph"><span class="span-element"> Community Growth:</span> are dedicated to not only enhancing individual businesses but also for the development of Kolkata's business landscape.</li>
                                             </ol>
                                             <h1 class="buss-heading">Our process</h1>
-                                            <div class="process-card">
-                                                <div class="process-detail-card">
-                                                    <img
-                                                        src="https://businesssphere.info/images/img-1.png"
-                                                        class="profile apply"
-                                                    />
-                                                    <p class="apply-webite">Apply for Listing on Website</p>
-                                                </div>
-                                                <div class="process-detail-card">
-                                                    <img
-                                                        src="https://businesssphere.info/images/img-2.png"
-                                                        class="profile"
-                                                    />
-                                                    <p class="possition">Review</p>
-                                                </div>
-                                                <div class="process-detail-card approve" >
-                                                    <img
-                                                        src="https://businesssphere.info/images/img-3.png"
-                                                        class="profile"
-                                                    />
-                                                    <p class="possition">Approval</p>
-                                                </div>
-                                                <div class="process-detail-card colsabrate">
-                                                    <img
-                                                        src="https://businesssphere.info/images/img-4.png"
-                                                        class="profile"
-                                                    />
-                                                    <p class="possition">Collaborate</p>
-                                                </div>
-                                                </div>
+                                            <div className='process-align-container'>
+				<div className='one-process'>
+					<div className="process-detail-card">
+						<img
+							src="https://businesssphere.info/images/img-1.png"
+							className="profile"
+						/>
+						<p className="apply-heading">Apply for Listing on Website</p>
+					</div>
+					<div className="process-detail-card">
+						<img
+							src="https://businesssphere.info/images/img-2.png"
+							className="profile"
+						/>
+						<p className="possition">Review</p>
+					</div>
+				</div>
+				<div className='one-process'>
+				<div className="process-detail-card">
+					<img
+						src="https://businesssphere.info/images/img-3.png"
+						className="profile"
+					/>
+					<p className="possition">Approval</p>
+				</div>
+				<div className="process-detail-card collaborate">
+				<img
+					src="https://businesssphere.info/images/img-4.png"
+					className="profile"
+				/>
+				<p className="possition">Collaborate</p>
+				</div>
+				</div>
+			</div>
             </div>
         </section> 
     )

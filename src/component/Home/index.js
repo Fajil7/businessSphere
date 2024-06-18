@@ -121,37 +121,41 @@ function Home() {
 								</div>
 							</div>
 		</div>
-        <div className="process-card">
-			<div className="process-detail-card">
-				<img
-					src="https://businesssphere.info/images/img-1.png"
-					className="profile apply"
-				/>
-				<p className="possition">Apply for Listing on Website</p>
-			</div>
-			<div></div>
-			<div className="process-detail-card">
-								<img
-									src="https://businesssphere.info/images/img-2.png"
-									className="profile"
-								/>
-								<p className="possition">Review</p>
-			</div>
-			<div className="process-detail-card approve">
-								<img
-									src="https://businesssphere.info/images/img-3.png"
-									className="profile"
-								/>
-								<p className="possition">Approval</p>
-			</div>
-			<div className="process-detail-card colsabrate">
+			<h1 className='heading-pocess'>Our Pocess</h1>
+			<div className='process-align-container'>
+				<div className='one-process'>
+					<div className="process-detail-card">
+						<img
+							src="https://businesssphere.info/images/img-1.png"
+							className="profile"
+						/>
+						<p className="apply-heading">Apply for Listing on Website</p>
+					</div>
+					<div className="process-detail-card">
+						<img
+							src="https://businesssphere.info/images/img-2.png"
+							className="profile"
+						/>
+						<p className="possition">Review</p>
+					</div>
+				</div>
+				<div className='one-process'>
+				<div className="process-detail-card">
+					<img
+						src="https://businesssphere.info/images/img-3.png"
+						className="profile"
+					/>
+					<p className="possition">Approval</p>
+				</div>
+				<div className="process-detail-card collaborate">
 				<img
 					src="https://businesssphere.info/images/img-4.png"
 					className="profile"
 				/>
 				<p className="possition">Collaborate</p>
 				</div>
-		</div>
+				</div>
+			</div>
 				<div className="testimonial-contianer">
 					<div>
 					<h1 className="testi-heading">Testimonials</h1>
