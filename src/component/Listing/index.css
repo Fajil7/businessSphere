@@ -224,6 +224,9 @@ body{
     width: 59vw;
   }
 }
+.captcha-input-2{
+  width: 14vw;
+}
 .gpay-text{
   font-size: 14px;
   width: 16.5vw;
